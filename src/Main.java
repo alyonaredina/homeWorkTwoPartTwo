@@ -6,11 +6,11 @@ public class Main {
         int balance = 300;
         int oneBonus = 100;
         int refill = 1_500;
-        System.out.println("Внесено на счет: " +  refill + " руб");
+        System.out.println("Внесено на счет: " + refill + " руб");
 
         int bonus;
 
-        if(refill >= 1_000){
+        if (refill > 1_000) {
             bonus = refill / oneBonus;
         } else {
             bonus = 0;
